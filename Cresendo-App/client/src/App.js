@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Events from './pages/Events';
-import SingleEvent from './pages/SingleEvent';
-import Scores from './pages/Scores';
-import Schedule from './pages/Schedule';
-import Login from './pages/Login';
+import Home from './pages/Home/Home';
+import Events from './pages/Events/Events';
+import SingleEvent from './pages/Events/SingleEvent';
+import Scores from './pages/Scores/Scores';
+import Schedule from './pages/Schedule/Schedule';
+import Login from './pages/Login/Login';
 import Error from './pages/Error';
 
 import Header from './components/Header';

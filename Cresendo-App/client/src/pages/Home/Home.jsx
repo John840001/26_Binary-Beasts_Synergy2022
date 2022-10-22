@@ -1,26 +1,10 @@
 // import Header from '../components/Header';
 // import Footer from '../components/Footer';
+import styles from './home.module.css';
 
 const Home = () => {
   return (
     <div>
-      <header class="header">
-
-        <a href="#" class="logo"><span>Cresc</span>endo</a>
-
-        <nav class="navbar">
-          <a href="#home">home</a>
-          <a href="#event">event</a>
-          <a href="#about">about</a>
-          <a href="#gallery">gallery</a>
-          <a href="#review">review</a>
-          <a href="#contact">contact</a>
-        </nav>
-
-        <div id="menu-bars" class="fas fa-bars"></div>
-
-      </header>
-      {/* <Header /> */}
       <section class="home" id="home">
 
         <div class="content">
@@ -323,26 +307,6 @@ const Home = () => {
         <div class="credit"> created by <span>Synergy - #26</span></div>
 
       </section>
-
-      {/* <Footer /> */}
-      {/* <div class="theme-toggler">
-
-        <div class="toggle-btn">
-          <i class="fas fa-cog"></i>
-        </div>
-
-        <h3>choose color</h3>
-
-        <div class="buttons">
-          <div class="theme-btn" style="background: #3867d6;"></div>
-          <div class="theme-btn" style="background: #f7b731;"></div>
-          <div class="theme-btn" style="background: #ff0033;"></div>
-          <div class="theme-btn" style="background: #013220;"></div>
-          <div class="theme-btn" style="background: #fa8231;"></div>
-          <div class="theme-btn" style="background: #FC427B;"></div>
-        </div>
-
-      </div> */}
 
     </div>
   )
