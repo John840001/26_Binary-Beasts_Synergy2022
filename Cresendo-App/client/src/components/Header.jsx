@@ -8,7 +8,7 @@ const Header = () => {
         <div className="d-flex justify-content-between align-items-center">
 
           <div className="logo">
-            <Link to="/" className='brand'>CRESENDO</Link>
+            <Link to="/" className='brand'>CRESCENDO</Link>
           </div>
 
           <nav className="nav nav-pills">

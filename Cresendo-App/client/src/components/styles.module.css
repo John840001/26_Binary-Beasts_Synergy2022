@@ -12,17 +12,6 @@ header .logo:hover {
 	transform: rotate(0deg);
 }
 
-header .brand {
-	font-size: 30px;
-	color: #fff;
-	font-weight: 700;
-	font-family: 'Leckerli One', cursive;
-	background-color: #2d2d2d;
-	border-radius: 40px;
-	border-bottom: 2px solid #6294de;
-	text-shadow: 2px 2px 0px #000;
-}
-
 header .nav-link {
 	font-weight: 700;
 	color: #999;
@@ -33,12 +22,10 @@ header .nav-link {
 header .nav-link:hover {
 	color: #fff;
 }
-a{
-    text-decoration: none;
-}
 
 footer {
 	padding: 40px 0 100px 0;
+    background-color: #000;
 }
 
 footer .nav-link {

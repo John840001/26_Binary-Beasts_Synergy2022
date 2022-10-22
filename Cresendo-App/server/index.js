@@ -5,6 +5,7 @@ const cors = require("cors");
 const connection = require("./db");
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
+const adminRoutes = require("./routes/admins");
 // const payment = require("./routes/payment");
 
 // database connection
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 // routes
+app.use("/api/admins", adminRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 // app.use("/api/payment", payment);
