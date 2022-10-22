@@ -1,4 +1,5 @@
 import styles from './events.css'
+import { Link } from 'react-router-dom';
 
 const Events = () => {
   return (
@@ -6,6 +7,7 @@ const Events = () => {
       <ul class="cards">
         <li>
           <a href="" class="card">
+            
             <img src="https://synergy.stucocrce.com/assets/imgs/Codelabs.png" class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
