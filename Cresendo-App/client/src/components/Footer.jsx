@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
+import styles from './styles.module.css'
 
 const Footer = () => {
   return (
@@ -6,10 +7,18 @@ const Footer = () => {
       <div className='container'>
         <nav className='d-flex justify-content-between align-items-center'>
           <div className="nav navpills">
-            <Link to="/" className="">Home</Link>
-            <Link to="/events" className="">Events</Link>
-            <Link to="/scores" className="">Scores</Link>
-            <Link to="/schedule" className="">Schedule</Link>
+            <NavLink to="/" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Home</NavLink>
+            <NavLink to="/events"
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Events</NavLink>
+            <NavLink to="/scores" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Scores</NavLink>
+            <NavLink to="/schedule" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Schedule</NavLink>
           </div>
         </nav>
       </div>
