@@ -7,6 +7,7 @@ import Schedule from './pages/Schedule/Schedule';
 import Login from './pages/Login/index';
 import Signup from './pages/Signup/index';
 import Error from './pages/Error';
+import Dashboard from './pages/Admin/dashboard';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -26,6 +27,8 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
