@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Events } from './pages/Events';
-import { SingleEvent } from './pages/SingleEvent';
-import { Scores } from './pages/Scores';
-import { Schedule } from './pages/Schedule';
-import { Login } from './pages/Login';
-import { Error } from './pages/Error';
+import Home from './pages/Home';
+import Events from './pages/Events';
+import SingleEvent from './pages/SingleEvent';
+import Scores from './pages/Scores';
+import Schedule from './pages/Schedule';
+import Login from './pages/Login';
+import Error from './pages/Error';
 
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

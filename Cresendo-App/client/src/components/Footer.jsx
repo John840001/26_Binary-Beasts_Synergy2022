@@ -10,11 +10,9 @@ const Footer = () => {
             <Link to="/events" className="">Events</Link>
             <Link to="/scores" className="">Scores</Link>
             <Link to="/schedule" className="">Schedule</Link>
-            
           </div>
         </nav>
       </div>
-      
     </footer>
   )
 }
