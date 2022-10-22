@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
+import styles from './styles.module.css'
 
 const Header = () => {
   return (
@@ -10,13 +11,24 @@ const Header = () => {
             <Link to="/" className='brand'>Cresendo</Link>
           </div>
 
-          <div className="nav nav-pills">
-            <Link to="/" className="">Home</Link>
-            <Link to="/events" className="">Events</Link>
-            <Link to="/scores" className="">Scores</Link>
-            <Link to="/schedule" className="">Schedule</Link>
-            <Link to="/login" className="">Login</Link>
-          </div>
+          <nav className="nav nav-pills">
+            
+            <NavLink to="/" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Home</NavLink>
+            <NavLink to="/events" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Events</NavLink>
+            <NavLink to="/scores" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Scores</NavLink>
+            <NavLink to="/schedule" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Schedule</NavLink>
+            <NavLink to="/login" 
+            className={(navData) => navData.isActive ? 'nav-link active' : 'nav-link'}
+            >Login</NavLink>
+          </nav>
 
         </div>
       </div>
